@@ -1,0 +1,109 @@
+*{
+    margin:0%;
+    padding: 0%;
+    background-color: #dfe3ee;
+}
+body{
+    /* background-color: red; */
+    /* background-image:url('/images/bg.png') */
+    
+}
+
+.textbox{
+    width: 500px;
+    margin-top:400px;
+    margin-left:350px;
+    /* border: 1px solid black; */
+}
+
+h1{
+    font-size:60px;
+    color:#1877f2;
+    font-family:sans-serif;
+}
+
+h2{
+    font-family:Helvetica,Arial,sans-serif;
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    width: 500px;;
+}
+
+.container{
+    float:right;
+    background-color: white;
+    width: 500px;
+    height: 450px;
+    margin-right: 250px;
+    margin-top:-400px;
+    border-radius: 10px;
+    border: 1px solid black;
+    box-shadow: 0px 0px 10px 5px gray;
+
+
+}
+
+.form{
+    /* float:right; */
+    /* margin: 20px; */
+    margin-top:20px;
+    background-color:white;
+    width: 100%;
+    text-align: center;
+    
+
+    
+}
+
+.form input{
+    margin-top:15px;
+    padding: 20px;
+    width: 89%;
+    border-radius: 8px;
+    font-size: 16px;
+}
+
+button{
+    margin-top:15px;
+    background: #1877f2;
+    padding: 16px;
+    width: 98%;
+    font-size: 20px;
+    font-weight: bolder;
+    color: white;
+    border-radius: 8px;
+
+}
+button:hover{
+    cursor:pointer;
+}
+p{
+    font-family:Helvetica,Arial,sans-serif;
+    margin-top: 20px;
+    background-color: white;
+    color: #1877f2;
+    cursor: pointer;
+}
+hr{
+    margin-top: 40px;
+    
+}
+
+#createAccount{
+    background-color: rgb(48, 187, 21);
+    width: 200px;
+    height: 30px;
+    margin-top: 20px;
+    margin-left: 150px;
+    border: 1px solid black ;
+    border-radius: 8px;
+    font-size: 20px;
+    font-weight: bold;
+    color:white;
+    padding: 10px;
+}
+
+#createAccount:hover{
+    cursor: pointer;
+}
